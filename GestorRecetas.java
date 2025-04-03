@@ -10,4 +10,7 @@ public class GestorRecetas {
     public List<Receta> obtenerRecetas() {
         return recetas;
     }
+    public void eliminarReceta(String nombre) {
+        recetas.removeIf(receta -> receta.getNombre().equalsIgnoreCase(nombre));
+    }
 }
