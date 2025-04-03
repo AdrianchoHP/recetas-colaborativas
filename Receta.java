@@ -13,4 +13,15 @@ public class Receta {
     public String[] getIngredientes() { return ingredientes; }
     public String getInstrucciones() { return instrucciones; }
 
+    private String categoria;
+
+    public Receta(String nombre, String[] ingredientes, String instrucciones, String categoria) {
+        this.nombre = nombre;
+        this.ingredientes = ingredientes;
+        this.instrucciones = instrucciones;
+        this.categoria = categoria;
+    }
+
+    public String getCategoria() { return categoria; }
+
 }
