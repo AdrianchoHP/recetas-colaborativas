@@ -8,5 +8,9 @@ public class Receta {
         this.ingredientes = ingredientes;
         this.instrucciones = instrucciones;
     }
+    
+    public String getNombre() { return nombre; }
+    public String[] getIngredientes() { return ingredientes; }
+    public String getInstrucciones() { return instrucciones; }
 
 }
