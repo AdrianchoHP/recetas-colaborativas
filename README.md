@@ -1,5 +1,4 @@
-# Recetas del Equipo [
-    Adrian Farid Hernandez Prince
+# Recetas del Equipo [Adrian Farid Hernandez Prince
     Marlon Yesid Sanchez Moncada
     Johan Sebastian Calderon Lamus
     Diego Fernando Candela Becerra
