@@ -7,5 +7,7 @@ public class GestorRecetas {
     public void agregarReceta(Receta receta) {
         recetas.add(receta);
     }
-    
+    public List<Receta> obtenerRecetas() {
+        return recetas;
+    }
 }
